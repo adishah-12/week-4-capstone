@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is our company's security policy on passwords?",
+    "expected_source": "security_policy.md",
+    "should_answer": true
+  },
+  {
+    "question": "Explain the code review process",
+    "expected_source": "code_review_process.md",
+    "should_answer": true
+  },
+  {
+    "question": "How do we handle customer complaints?",
+    "expected_source": "customer_complaints.md",
+    "should_answer": true
+  },
+  {
+    "question": "What is the remote work policy on equipment?",
+    "expected_source": "remote_work_policy.md",
+    "should_answer": true
+  },
+  {
+    "question": "What happens if there's a security incident?",
+    "expected_source": "security_policy.md",
+    "should_answer": true
+  },
+  {
+    "question": "What is our parental leave policy?",
+    "expected_source": null,
+    "should_answer": false
+  },
+  {
+    "question": "What's the weather like today?",
+    "expected_source": null,
+    "should_answer": false
+  },
+  {
+    "question": "How do I bake a chocolate cake?",
+    "expected_source": null,
+    "should_answer": false
+  }
+]
