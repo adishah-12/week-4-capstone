@@ -1,0 +1,22 @@
+[project]
+name = "capstone-4"
+version = "0.1.0"
+description = "Multi-agent RAG system for enterprise documentation (qualitative + quantitative + manager agents)"
+authors = [
+    { name = "adishah-12", email = "contact@adi.moe" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=1.8.0",
+    "chromadb>=1.5.9",
+    "fastapi>=0.141.1",
+    "pydantic>=2.13.5",
+    "uvicorn[standard]>=0.53.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "pytest-mock>=3.15.1",
+]
